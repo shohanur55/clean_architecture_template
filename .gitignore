@@ -28,7 +28,6 @@
 .classpath
 .project
 .settings/
-.vscode/*
 
 # Flutter repo-specific
 /bin/cache/
@@ -148,3 +147,5 @@ app.*.symbols
 
 # Localization Generated Files
 /lib/src/core/gen/
+config.bat
+node_modules

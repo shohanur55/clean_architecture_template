@@ -31,27 +31,27 @@ dependencies:
   flutter:
     sdk: flutter
   # UI
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.8
   gap: ^3.0.1
   # State management
   flutter_riverpod: ^3.1.0
   # Navigation
-  go_router: ^17.0.1
+  go_router: ^18.0.0
   # Cache & Database
-  shared_preferences: ^2.3.1
+  shared_preferences: ^2.5.2
   # Generator and Annotations
   riverpod_annotation: ^4.0.0
-  freezed_annotation: ^3.0.0
+  freezed_annotation: ^3.1.0
   # Media
-  flutter_svg: ^2.0.10+1
+  flutter_svg: ^2.0.17
   # Logging
-  logger: ^2.4.0
+  logger: ^2.5.0
   pretty_dio_logger: ^1.4.0
   # Serialization & Deserialization
-  dart_mappable:
+  dart_mappable: ^4.7.0
   # Networking
-  retrofit: ^4.4.0
-  dio: ^5.8.0+1
+  retrofit: ^4.10.0
+  dio: ^5.11.0
   # Localization
   flutter_localizations:
     sdk: flutter
@@ -62,16 +62,16 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^6.0.0
-  build_runner:
-  custom_lint:
+  build_runner: ^2.15.1
+  custom_lint: ^0.8.1
   flutter_guardian:
-   path: packages/flutter_guardian/
-  riverpod_generator:
-  riverpod_lint:
-  flutter_gen_runner:
-  dart_mappable_builder:
+    path: packages/flutter_guardian/
+  riverpod_generator: ^4.0.0+1
+  riverpod_lint: ^3.1.0
+  flutter_gen_runner: ^5.10.0
+  dart_mappable_builder: ^4.7.0
   retrofit_generator: ^10.2.1
-  freezed: ^3.0.6
+  freezed: ^3.2.3
 
 flutter:
   uses-material-design: true
